@@ -1,4 +1,4 @@
-import React, { useEffect, useLayoutEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import ArtistInfo from '../../components/ArtistInfo/ArtistInfo';
 import './artist.css';
 

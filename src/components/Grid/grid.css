@@ -1,0 +1,19 @@
+.grid-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 70px;
+  grid-row-gap: 70px;
+  padding: 20px 40px;
+}
+
+.grid-element {
+  background: #353535;
+  max-height: 430px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 720px) {
+  .grid-content {
+    grid-template-columns: auto auto;
+  }
+}

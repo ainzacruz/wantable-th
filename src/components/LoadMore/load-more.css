@@ -1,0 +1,18 @@
+.load-more-button {
+  background: grey;
+  width: 100%;
+  min-height: 50px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.load-more-button p {
+  font-size: 2em;
+  padding: 20px;
+}
+
+.load-more-button:hover {
+  opacity: 0.8;
+}

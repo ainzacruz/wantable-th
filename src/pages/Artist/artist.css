@@ -1,0 +1,15 @@
+.artist-page {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.albums-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.album-links {
+  text-align: center;
+  padding: 1em;
+}

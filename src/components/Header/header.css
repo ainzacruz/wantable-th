@@ -1,0 +1,25 @@
+.header-container {
+  width: 100%;
+  height: auto;
+  background: black;
+  padding: 0 10%;
+  margin: 0;
+}
+
+.header-content {
+  max-width: 1280px;
+  min-height: 120px;
+  height: auto;
+  padding: 0 10%;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-content a {
+  text-decoration: none;
+  font-size: 3em;
+  color: #FFFF;
+}

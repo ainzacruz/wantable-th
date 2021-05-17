@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Home from './pages/Home/Home';
 import Artist from './pages/Artist/Artist';
-import './app.css';
+import './App.css';
 
 const App: React.FunctionComponent = () => {
   return (
